@@ -21,7 +21,7 @@ h1 {
     width: 1519px;
     height: 695px;
     background: #000000;
-    background-image: url('spacebackground.jpg');
+    background-image: url('/spacebackground.jpg');
     background-size: cover; /* Adjusts the background image to cover the entire page */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     position: absolute;
@@ -32,7 +32,7 @@ h1 {
 .logo {
     height: 92px; 
     width: 92px;  
-    background-image: url('logo.png');
+    background-image: url('/logo.png');
     position: absolute;
     top: 18px;
     left: 101px;
@@ -144,7 +144,7 @@ hr {
     height: 395px;
     width: 400px;
     background: transparent;
-    background-image: url(Zodiac.png);
+    background-image: url(/Zodiac.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -290,7 +290,7 @@ hr {
     top: 404px;
     left: 844px;
     border: 2px solid;
-    background-image: url(ourstory1.png);
+    background-image: url(/ourstory1.png);
 }
 
 .what_we_offer {
@@ -333,7 +333,7 @@ hr {
     position: absolute;
     top: 1094px;
     left: 864px;
-    background-image: url(whatweoffer.jpg);
+    background-image: url(/whatweoffer.jpg);
 }
 
 .meet_our_astrologer {
@@ -384,7 +384,7 @@ hr {
     position: absolute;
     top: 1702px;
     left: 161px;
-    background-image: url(astrologer.jpg);
+    background-image: url(/astrologer.jpg);
 }
 
 
@@ -404,7 +404,7 @@ hr {
     bottom: 0px;
     left: -9px;
     background: black;
-    background-image: url('spacefooter.jpg');
+    background-image: url('/spacefooter.jpg');
     
 }
 

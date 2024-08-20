@@ -5,6 +5,8 @@ import Home from './Home';
 import About from './About';
 import Underconstruction from './Underconstruction';
 import Booking from './Booking';
+import Appbar from './Appbar';
+import Footer from './Footer';
 
 const App = () => {
   return (
