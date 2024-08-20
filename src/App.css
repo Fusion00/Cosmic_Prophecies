@@ -1,0 +1,593 @@
+/* -----------------------------Home-------------------------------- */
+
+.home {
+    height: 2864px;
+}
+
+
+h1 {
+    color: #FF0000;
+    font-family: 'Felix Titling';
+    font-size: 56px;
+    position: absolute;
+    top: -3px;
+    left: 216px;
+
+}
+
+
+
+.back {
+    width: 1519px;
+    height: 695px;
+    background: #000000;
+    background-image: url('spacebackground.jpg');
+    background-size: cover; /* Adjusts the background image to cover the entire page */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logo {
+    height: 92px; 
+    width: 92px;  
+    background-image: url('logo.png');
+    position: absolute;
+    top: 18px;
+    left: 101px;
+}
+
+hr {
+    width: 1314px;
+    position: absolute;
+    top: 102px;
+    left: 169px;
+    border-top: 1px;
+}
+
+.booking {
+    border-radius: 17px;
+    height: 52px;
+    width: 228px;
+    background-color: #ffd500e5;
+    position: absolute;
+    top: 41px;
+    right: 76px;
+    font-size: 17px;
+    font-family: 'Consolas';
+}
+.booking:hover {background-color: #ffd500}
+
+.youtube {
+    height: 18px;
+    width: 27px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 133px;
+    right: 175px;
+    border-radius: 5px;
+}
+.youtube:hover {background-color: #1500ff}
+
+.yttri {
+    height: 0px;
+    width: 0;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    border-style: solid;
+    border-width: 0 4px 5.6px 4px;
+    border-color: transparent transparent #000000 transparent;
+    transform: rotate(90deg);
+
+}
+
+.facebook {
+    height: 20px;
+    width: 20px;
+    background: rgb(255 255 255);
+    position: absolute;
+    top: 130px;
+    right: 253px;
+    border-radius: 4px;
+}
+
+.facebook:hover {background-color: #1500ff}
+
+.f {
+    height: 19px;
+    width: 18px;
+    background: transparent;
+    position: absolute;
+    top: -5px;
+    right: -2px;
+    font-size: 38px;
+    font-family: Calibri;
+}
+
+.Instagram{
+    height: 20px;
+    width: 21px;
+    background: rgb(0 0 0);
+    position: absolute;
+    top: 129px;
+    right: 102px;
+    border-radius: 7px;
+    border: 2px solid white;
+}
+
+.Instagram:hover {background-color: #1500ff}
+
+.circle {
+    height: 7px;
+    width: 7px;
+    background: rgb(0 0 0);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 16px;
+    border: 2px solid white;
+}
+
+.dot {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    border-radius: 19px;
+    border: 2px solid white;
+}
+
+.zodiac {
+    height: 395px;
+    width: 400px;
+    background: transparent;
+    background-image: url(Zodiac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 213px;
+    right: 94px;
+    animation: rotate 31s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.Appbarlabel {
+    display: flex;
+    height: 40px;
+    width: 648px;
+    position: absolute;
+    top: 104px;
+    left: 201px;
+}
+
+.AppButton {
+    background-color: rgb(0 0 0 / 0%);
+    color: white;
+    height: 55px;
+    width: 111px;
+    border: none;
+    margin-left: -14px;
+    margin-top: 9px;
+    font-size: 14px;
+}
+.AppButton:hover {color: #1500ff;}
+
+
+
+.Home_Title {
+    color: #FFD500;
+    position: absolute;
+    top: 217px;
+    left: 230px;
+    width: 243px;
+}
+
+.Home_head {
+    font-size: 44px;
+    width: 221px;
+}
+
+.Home_head2 {
+    font-size: 18px;
+    width: 157px;
+}
+
+.Home_Discription {
+    color: white;
+    width: 655px;
+    height: 100px;
+    position: absolute;
+    top: 329px;
+    left: 231px;
+
+}
+
+.aboutsection {
+    position: absolute;
+    top: 700px;
+}
+
+/* ----------------App BAR------------------------ */
+
+.Appbar {
+    height: 80px;
+    width: 1527px;;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+.Appbar2 {
+    height: 80px;
+}
+
+/* ----------------About Page------------------------ */
+
+.aboutsection2 {
+    height: 2317px;
+}
+
+.About_Title {
+    font-size: 50px;
+    position: absolute;
+    top: 77px;
+    left: 117px;
+    font-family: Times New Roman;
+    width: 267px;
+}
+
+.our_story {
+    display: flex;
+    background: black;
+    color: #FFD500;
+    font-family: Bahnschrift;
+    position: absolute;
+    top: 245px;
+    left: 121px;
+    height: 50px;
+    width: 194px;
+    font-size: 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.line1 {
+    width: 1104px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 260px;
+    left: 351px;
+}
+
+.block1 {
+    color: rgb(0, 0, 0);
+    width: 598px;
+    height: 110px;
+    position: absolute;
+    top: 443px;
+    left: 140px;
+    font-size: 26px;
+}
+
+.blockpic1 {
+    width: 506px;
+    height: 346px;
+    position: absolute;
+    top: 404px;
+    left: 844px;
+    border: 2px solid;
+    background-image: url(ourstory1.png);
+}
+
+.what_we_offer {
+    display: flex;
+    background: black;
+    color: #FFD500;
+    font-family: Bahnschrift;
+    position: absolute;
+    top: 949px;
+    left: 121px;
+    height: 50px;
+    width: 319px;
+    font-size: 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.line2 {
+    width: 985px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 968px;
+    left: 474px;
+}
+
+.block2 {
+    color: rgb(0, 0, 0);
+    width: 642px;
+    height: 100px;
+    position: absolute;
+    top: 1120px;
+    left: 144px;
+    font-size: 24px;
+}
+
+.blockpic2 {
+    width: 509px;
+    height: 322px;
+    position: absolute;
+    top: 1094px;
+    left: 864px;
+    background-image: url(whatweoffer.jpg);
+}
+
+.meet_our_astrologer {
+    display: flex;
+    background: black;
+    color: #FFD500;
+    font-family: Bahnschrift;
+    position: absolute;
+    top: 1560px;
+    left: 572px;
+    height: 50px;
+    width: 426px;
+    font-size: 34px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.line3 {
+    width: 404px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 1574px;
+    left: 118px;
+}
+
+.line4 {
+    width: 418px;
+    border-top: 1px solid;
+    position: absolute;
+    top: 1574px;
+    left: 1042px;
+}
+
+.block3 {
+    color: rgb(0, 0, 0);
+    width: 598px;
+    height: 110px;
+    position: absolute;
+    top: 1731px;
+    left: 825px;
+    font-size: 26px;
+}
+
+.blockpic3 {
+    width: 509px;
+    height: 322px;
+    position: absolute;
+    top: 1702px;
+    left: 161px;
+    background-image: url(astrologer.jpg);
+}
+
+
+
+
+
+/* ----------------------------Footer----------------------- */
+.footersection2 {
+    height: 402px;
+    border: 1px solid;
+}
+.footersection {
+    position: relative;
+    border: 2px solid;
+    height: 408px;
+    width: 1516px;
+    bottom: 0px;
+    left: -9px;
+    background: black;
+    background-image: url('spacefooter.jpg');
+    
+}
+
+.footer_text {
+    color: red;
+    font-size: 64px;
+    font-family: Felix Titling;
+    position: absolute;
+    top: 23px;
+    left: 433px;
+}
+
+.foot_msg {
+    color: white;
+    position: absolute;
+    top: 106px;
+    left: 613px;
+    font-size: 32px;
+    font-family: Calibri;
+}
+
+.contactsfooter {
+    position: relative;
+    top: 206px;
+    left: 99px;
+    width: 100px;
+}
+
+.headingfooter {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    font-family: Times New Roman;
+}
+
+.link {
+    text-decoration: none;
+    color: #F1FFAF;
+    font-family: Times New Roman;
+  }
+
+.footerelements {
+    position: relative;
+    top: 25px;
+    color: #F1FFAF;
+}
+
+
+.developerfooter {
+    position: relative;
+    top: 77px;
+    left: 405px;
+    width: 100px;
+}
+
+.servicefooter{
+    position: relative;
+    top: 40px;
+    left: 1032px;
+    width: 100px;
+}
+
+.linksfooter{
+    position: relative;
+    top: -52px;
+    left: 1297px;
+    width: 100px;
+}
+
+/* ------------------404-------------------- */
+
+.underconstruction {
+    height: 500px;
+    
+}
+
+.underconstruction2 {
+    background: #353535;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 522px;
+    width: 1519px;
+    position: relative;
+    top: -16px;
+    left: -8px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.underconstruction3 {
+    position: absolute;
+    top: -15px;
+    left: 593px;
+    color: red;
+    font-size: 233px;
+}
+
+.underconstruction4 {
+    position: absolute;
+    top: 301px;
+    left: 462px;
+    font-size: 48px;
+}
+
+/*--------------------bookings-----------------------  */
+
+.bookings {
+    height: 620px;
+}
+
+.bookings2 {
+    position: relative;
+    font-size: 64px;
+    top: 23px;
+    left: 110px;
+    width: 500px;
+}
+
+.bookingsline {
+    position: absolute;
+    top: 189px;
+    left: 100px;
+    width: 1314px;
+    border: 1px solid;
+}
+
+.bookingsform {
+    position: relative;
+    top: 52px;
+    left: 565px;
+    height: 472px;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    
+
+}
+
+.Bookinput {
+    position: relative;
+    top: 19px;
+    width: 400px;
+    height: 43px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #ab9090;
+    font-size: 25px;
+    color: #7a7a7a;
+}
+
+.bookingsbutton {
+    left: 655px;
+    position: relative;
+    top: -52px;
+    width: 249px;
+    height: 50px;
+    font-size: 21px;
+    border-radius: 10px;
+    border: none;
+    background: #FFD500;
+}
+
+.bookingbutton:hover {background-color: #ffd500c1}
+
+.bookingbutton:active{
+    background-color: rgb(0, 17, 255);
+    transform: translateY(4px);
+}
+
+.Bookinput::placeholder {
+    color: #888888; 
+    font-size: 28px; 
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.flag{
+    color: black;
+    position: relative;
+    top: -27px;
+    left: 394px;
+    font-size: 31px;
+    width: 805px;
+}
+
